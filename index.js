@@ -11,6 +11,8 @@ import { updateStudent } from './src/controller/student controller/updateStudent
 import { sendOtp } from './src/controller/forgot password/sendOtp.js';
 import { verifyOtp } from './src/controller/forgot password/verifyOtp.js';
 import { resetPassword } from './src/controller/forgot password/resetPassword.js';
+import dotenv from "dotenv";
+dotenv.config();
 
 
 const app = express();

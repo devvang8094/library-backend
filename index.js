@@ -39,7 +39,7 @@ function verifyToken(req, res, next) {
 
 // cors enablation
 app.use(cors({
-  origin: "http://127.0.0.1:5500",  // or "http://localhost:5500"
+  origin: "https://devvang8094.github.io/library-website/HTML/home.html",  // or "http://localhost:5500"
   methods: ["GET", "POST", "PUT", "DELETE"],
 }));
 
